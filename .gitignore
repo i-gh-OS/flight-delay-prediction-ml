@@ -1,0 +1,41 @@
+# =========================
+# ENTORNO PYTHON
+# =========================
+venv/
+__pycache__/
+*.pyc
+
+# =========================
+# JUPYTER
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# =========================
+# EDITORES
+# =========================
+.vscode/
+.DS_Store
+Thumbs.db
+
+# =========================
+# DATOS (ajustar según uso)
+# =========================
+data/raw/
+data/processed/
+data/final/
+data/samples/
+
+# =========================
+# MODELOS Y OUTPUTS
+# =========================
+*.pkl
+*.joblib
+models/
+outputs/
+figures/
+
+# =========================
+# LOGS / TEMP
+# =========================
+*.log
